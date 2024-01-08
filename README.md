@@ -1,3 +1,18 @@
+## To run
+### Frontend
+Clone the `frontend` branch (and navigate into frontend folder)
+Prerequisites: Node.js, npm, 
+Angular CLI: `npm install -g @angular/cli`
+Install project dependencies: `npm install`
+Running the app: `ng serve`
+
+### Backend
+Clone the `backend` branch (and navigate into backend folder)
+Prerequisites: Java, maven, PostgreSQL 
+Build Spring Boot App: `mvn clean install`
+Running the app: `mvn spring-boot:run`
+Open pgAdmin client to connect to database
+
 Assessment 3
 ===============================
 # Overview
